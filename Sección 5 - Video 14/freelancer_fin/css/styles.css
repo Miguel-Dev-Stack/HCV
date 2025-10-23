@@ -78,8 +78,18 @@ h1,h2,h3 {
 
 
 /* Titulos */
+.titulo {
+    font-family: "BBH Sans Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .titulo span {
     font-size: 2rem;
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 /** Utilidades **/
@@ -147,6 +157,13 @@ h1,h2,h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    font-size: 2rem;
+    font-family: "Playwrite DE SAS", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
 
 }
 .contenido-hero h2, 
