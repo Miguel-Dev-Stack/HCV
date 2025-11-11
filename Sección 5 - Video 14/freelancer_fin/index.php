@@ -15,6 +15,10 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap" rel="stylesheet">
+    <!-- FUENTE PARA BOTON JUGAR -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="style">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -25,9 +29,9 @@
 
     <div class="nav-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
+            <a href="index.php">Inicio</a>
             <a href="#">Sobre Mi</a>
-            <a href="#">Participantes</a>
+            <a href="participantes.php">Participantes</a>
             <a href="#">Partidos</a>
             <a href="#">Contacto</a>
         </nav>

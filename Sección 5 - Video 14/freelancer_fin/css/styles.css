@@ -37,7 +37,7 @@ body {
     color: var(--blanco);
     padding: 1rem 3rem;
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -45,6 +45,10 @@ body {
     width: 90%;
     text-align: center;
     border: none;
+ 
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 @media (min-width: 768px) {
     .boton {
@@ -267,3 +271,89 @@ h1,h2,h3 {
 .footer {
     text-align: center;
 }
+
+/** INICIA SLIDER COMÚN **/
+
+.slider-container {
+    width: 100%;
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    white-space: nowrap; /* Mantiene todos los elementos en una sola línea */
+}
+
+.slider-track {
+    display: inline-flex; /* Permite que los elementos fluyan horizontalmente */
+    animation: scroll 20s linear infinite; /* Animación continua */
+}
+
+.slider-item {
+    /* Estilos para tus elementos (imágenes, texto, etc.) */
+    display: inline-block;
+    width: 200px; /* Ancho fijo para cada elemento */
+    margin: 0 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Desplaza la mitad del ancho total del track (la primera copia) */
+        transform: translateX(-50%);
+    }
+}
+
+/** TERMINA SLIDER COMUN **/
+
+/** INICIA SLIDER RESPONSIVO **/
+
+.logos{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+    margin-top: calc(50vh - 50px);
+}
+
+.logos-slide{
+    animation: 10s slide infinite linear;
+    img {
+        height: 50px;
+        margin: 0px 70px;
+    }
+}
+
+.logos::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    background: linear-gradient(to left, rgba(255,255,255,0) , rgba(255,255,255));
+    content: " ";
+    z-index: 1;
+}
+
+.logos::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0) , rgba(255,255,255));
+    content: " ";
+    z-index: 1;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-30%);
+    }
+}
+
+/** TERMINA SLIDER RESPONSIVO **/
