@@ -24,7 +24,7 @@
 </head>
 <body>
     <header>
-        <h1 class="titulo">Quiniela <span>Liga MX</span></h1>
+        <h1 class="titulo">Quiniela Covadonga <span>Liga MX</span></h1>
     </header>
 
     <div class="nav-bg">
@@ -39,7 +39,7 @@
     
     <section class="hero">
         <div class="contenido-hero">
-            <h2>QUINIELA OFICIAL <span> Liga MX</span></h2> 
+            <h2>Quiniela Covadonga <span> Liga MX</span></h2> 
             <div class="ubicacion">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z"/>
